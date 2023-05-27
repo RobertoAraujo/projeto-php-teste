@@ -15,6 +15,9 @@
         "phan/phan": "^5.4"
     },
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
             "Poshyweb\\BuscadorDeCursos\\": "src/"
         }
@@ -35,5 +38,6 @@
     },
     "scripts-descriptions": {
         "check" : "Roda as Verificações do código. PHAN, PHPCS, PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0"
 }
